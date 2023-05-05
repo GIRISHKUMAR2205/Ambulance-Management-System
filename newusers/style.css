@@ -1,0 +1,50 @@
+
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+}
+.wrapper {
+width: 100vw;
+margin: 0 auto;
+position: fixed;
+z-index: 999;
+}
+nav {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+background-color: hsl(240, 2%, 8%);
+padding: 1rem 1.5rem;
+width: 100%;
+}
+nav .logo  {
+font-weight: 700;
+}
+nav ul {
+list-style: none;
+display: flex;
+padding-top: 15px;
+gap: 2rem;
+}
+nav a {
+text-decoration: none;
+color: white;
+}
+nav #toggle,
+nav label {
+display: none;
+}
+.menu li{
+font-size: medium;
+}
+.bottom-right {
+position: absolute;
+bottom: 275px;
+right: 175px;
+color: black;
+font-size: 35px;
+}
+
